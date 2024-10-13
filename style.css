@@ -1,7 +1,7 @@
 body {
   background: #fffdf9;
   color: rgba(0,0,0,0.9);
-  font-famiLy: "helvetica";
+  font-famiLy: "Plus Jakarta Sans", sans-serif;
   padding: 1.5rem;
 }
 .text-hero {
