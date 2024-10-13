@@ -46,3 +46,11 @@ body {
 sup {
   font-size: 0.8rem;
 }
+
+.link {
+  bottom: 1rem;
+  position: fixed;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000000;
+}
