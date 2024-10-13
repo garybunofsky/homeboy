@@ -26,10 +26,12 @@ body {
   margin: 0 auto 4rem;
 }
 
-.properties h3 {
+.properties h3,
+.properties h3 a {
   font-size: 1.275rem;
   font-weight: 700;
   margin: 0 0 1rem 0;
+  color: #000000;
 }
 
 .properties p {
