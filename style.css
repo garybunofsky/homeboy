@@ -19,6 +19,7 @@ body {
 .text-hero h2 {
   font-size: 1.3875rem;
   font-weight:400;
+  line-height: 1.35;
 }
 
 .properties {
