@@ -10,6 +10,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+  
+  <div id="event-details"></div>
+
+    <script>
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const eventLocation = "Cleveland, OH";
+        const eventDate = new Date();
+        const formattedDate = eventDate.toLocaleDateString('en-US', options);
+
+        const eventString = `${eventLocation} | ${formattedDate}`;
+        document.getElementById("event-details").innerText = eventString;
+    </script>
   <section class="text-hero">
     <img src="mark.png" alt="homeboy-logo" />
     <h2>Homeboy Holdings aims to buy 8 cash-flowing properties in the Cleveland area by 2030, focusing on distressed properties that can be turned into Section 8 housing.</h2>
