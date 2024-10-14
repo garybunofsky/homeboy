@@ -47,10 +47,9 @@ sup {
   font-size: 0.8rem;
 }
 
-.link {
-  bottom: 1rem;
-  position: fixed;
-  font-weight: 500;
+.time {
+  top: 1rem;
+  font-weight: 300;
   text-decoration: none;
   color: #000000;
   margin: 0 auto;
